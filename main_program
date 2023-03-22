@@ -1,0 +1,5 @@
+username = input('Username: ')
+password = input('Password: ')
+password_length = len(password)
+
+print('{}, your password {} is {} characters long'.format(username, password.replace(password,'*' * password_length), password_length))
